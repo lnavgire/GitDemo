@@ -15,6 +15,12 @@ public class actionsDemo {
         
         driver.get("https://www.amazon.in/ref=nav_logo");
         
+        
+        driver.get("Linux is here");
+        
+        driver.get("RootCodefire is here");
+        
+        
         driver.manage().window().maximize();
         
         Actions a= new Actions(driver);
